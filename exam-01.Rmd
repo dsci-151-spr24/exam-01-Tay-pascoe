@@ -8,7 +8,8 @@ output: html_document
 ```{r}
 #| label: setup
 #| include: false
-
+library(tidyverse)
+library(nycflights13)
 # set the echo option to FALSE to see how the document looks with the code suppressed
 knitr::opts_chunk$set(echo = TRUE)
 ```
